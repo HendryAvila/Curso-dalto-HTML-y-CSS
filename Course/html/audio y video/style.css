@@ -1,0 +1,21 @@
+div {
+    box-sizing: border-box;
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    margin: 100px 100px; 
+    box-shadow: 1px 1px 30px #a1a1e9;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+video {
+    width: 300px;
+}
+
+.title-video {
+    font-family: sans-serif;
+    font-size: 1.6em;
+    border-left: 1px solid black;    
+
+}

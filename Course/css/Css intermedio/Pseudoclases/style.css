@@ -1,0 +1,46 @@
+
+
+
+
+body {
+    background-color: #0003 ;
+}
+
+/*Pasar el mouse por encima*/
+
+h1:hover {
+    text-align: center;
+    color:  rgb(228, 37, 12);
+    font-family: sans-serif;
+    border: 4px solid rgb(68, 63, 68);
+    margin: auto;
+    margin-right: 70px ;
+    margin-left: 70px ;
+    border-radius: 20px;
+    text-transform: uppercase;
+
+}
+
+/*Mientras se le de click*/
+
+h1:active {
+    background-color: blue;
+    color: aliceblue;
+}
+
+/*Primero*/
+Div ul li:first-child {
+    color: red;
+}
+/*Seleccionamos uno especificos y con la n salteamos*/
+Div ul li:nth-child(2n) {
+    color: brown;
+}
+/*ultimo*/
+Div ul li:last-child {
+    color: blue;
+}
+
+.email:valid{
+    color: purple;    
+}

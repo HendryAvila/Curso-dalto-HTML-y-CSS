@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font: 1em sans-serif;
+}
+
+div, body {
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    border: 1px  solid black;
+    padding: 5px;
+}
+
+.flex-items{
+    border: 1px solid black;
+    background-color: aqua;
+    flex-grow: 1;
+
+
+}
+
+@media screen and (max-width: 510px ) {
+    .flex-container{
+        flex-direction: column;
+
+    }
+}

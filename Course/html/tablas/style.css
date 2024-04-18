@@ -1,0 +1,11 @@
+th {
+    border: 2px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+td {
+    border: 2px solid black;
+    text-align: center;
+    font-family: sans-serif;
+}

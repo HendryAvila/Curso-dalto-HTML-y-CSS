@@ -1,0 +1,14 @@
+p {
+    color: blue;
+}
+.stock {
+    color: green;
+}
+
+.n-stock {
+    color: red;
+}
+
+#most-expensive {
+    color: orange;
+}

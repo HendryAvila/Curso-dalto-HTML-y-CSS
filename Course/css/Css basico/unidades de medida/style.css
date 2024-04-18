@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background: rgba(167, 81, 1, 0.966);
+    font-size: 20px; 
+
+}
+
+#Noti {
+    margin: 15px 30px 15px 15px;
+    font-family: sans-serif;
+    background: rgba(204, 135, 8, 0.966);
+    padding: 10px;
+    text-align: center;
+    color:rgba(8, 8, 8, 0.986);
+    font-size: 1.5em;
+    border-bottom: 10px solid rgba(3, 3, 3, 0.966);
+    border-radius: 30px;
+}
+
+h2 {
+    text-align: center;
+    border-left: 10px solid #000;
+    border-right: 10px solid #000;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+#parrafo-carta {
+    padding: 30px;
+    text-align: justify;
+    background: rgb(190, 133, 94);
+    margin: auto;
+    border-bottom: 10px solid rgb(0, 0, 0);
+    border-top: 10px solid black;
+    border-radius: 50px;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    color: rgb(26, 27, 27);
+}
+
+h3 {
+    margin: 15px 30px 15px 15px;
+    font-family: sans-serif;
+    background: rgba(204, 135, 8, 0.966);
+    padding: 6px;
+    text-align: center;
+    color:rgba(8, 8, 8, 0.986);
+    font-size: 1.5rem;
+    border-bottom: 6px solid rgba(3, 3, 3, 0.966);
+    border-radius: 30px;
+}
+
+#espadas {
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+}
+
+

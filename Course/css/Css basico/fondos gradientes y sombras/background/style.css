@@ -1,0 +1,20 @@
+body {
+    background: teal;
+    margin: 0;
+}
+
+.box {
+    width: 400px;
+    height: 900px;
+    margin: 0px;
+ 
+    
+    background: url("https://th.bing.com/th/id/R.1a9106c01648de83bd991cc46549bb5f?rik=huDgABPBhhRBWg&riu=http%3a%2f%2fimages4.fanpop.com%2fimage%2fphotos%2f16300000%2fSheldon-Cooper-the-big-bang-theory-16390405-333-500.jpg&ehk=XAlhzCFcu0F1BMS%2fEaLA6K27LnhgTLDNF2sgTAsgWVY%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1") top / cover no-repeat fixed black;
+}
+
+.back-filter {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.514);
+    background-size: contain;
+}

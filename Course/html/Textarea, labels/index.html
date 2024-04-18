@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="R.png" type="image/png">
+    <meta name="description" content="description de la pagina con 100 caracteres min">
+    <meta name="keywords" content="Coding,programing,python,html,css">
+    <meta name="author" content="Hendry Avila">
+    <meta name="robots" content="">
+    <meta name="title" content="Metatags, comentarios e icons">
+    <meta name="OG: TITLE" content="">
+    <meta name="OG: IMAGE" content="">
+    <meta name="OG: description" content="">
+    <title>Metatags, textarea, labels </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Esto es un comentario de prueba-->
+    
+    <form action="">
+        <div>
+            <h1 >Ingresa tu nombre e email para subscribirte</h1>
+        </div>
+        <fieldset>
+            <legend>Basic Information</legend>
+            <!--Simple input-->
+                <div class="form-input">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Hendry" id="nombre">
+                </div>
+                <div class="form-input">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Hendry@gmail.com" id="email">
+                </div>
+                <div class="form-input">
+                    <label for="asunto">Asunto</label> 
+                    <input type="text" placeholder="Negocios" id="asunto">
+                </div>
+        </fieldset>
+        <fieldset>
+            <legend>Aditional info</legend>
+        <!--Select and Option-->
+            <div class="form-input">
+                <label>Tipo de usuario</label>
+                <select name="type-of-user">
+                    <option value="user1">Seguidor/a</option>
+                    <option value="user2">Empresa</option>
+                    <option value="user3">marciano</option>
+                    <option value="user4">Saturniano</option>
+                    <option value="user5">Necturniano</option>
+                </select>
+            </div>
+            <!--Datalist and Option-->
+            <div class="form-input">
+                <label>Tipo de usuario</label>
+                <input list="Referente" name="Referente">
+                <datalist id="Referente" name="Referente">
+                    <option >Seguidor/a</option>
+                    <option >Empresa</option>
+                    <option >marciano</option>
+                    <option >Saturniano</option>
+                    <option >Necturniano</option>   
+                </datalist>
+            </div>
+            <!--Textarea-->
+            <div class="form-input">
+                <label for="comentario">Comentario</label>
+                <textarea name="" id="comentario" cols="30" rows="10" placeholder="Deja un comentarios" ></textarea>
+            </div>
+            <div>
+                <label for="check">Aceptar los terminos y condiciones</label>
+                <input type="checkbox" id="check" class="checkbok">
+            </div>
+            <div class="form-input">
+                <label for="submit"></label>
+                <input type="submit" id="submit" class="submit" value="sent">
+            </div>
+        
+        </fieldset>
+    </form>
+    
+</body>
+</html>

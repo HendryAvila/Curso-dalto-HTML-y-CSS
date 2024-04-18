@@ -1,0 +1,23 @@
+.container {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+.container--red {
+    background-color: red;
+    position: relative;
+    top: -100px;
+    left: 60px;
+    /*con esto ponemos la caja por encima*/
+    z-index: 10;
+}
+
+.container--blue{
+    background-color: blue;
+    position: relative;
+    top: -110px;
+    left: 100px;
+    z-index: 20;
+}

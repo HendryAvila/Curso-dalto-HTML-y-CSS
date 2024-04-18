@@ -1,0 +1,15 @@
+p {
+    color: rgb(240, 133, 4);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: justify;
+    letter-spacing: 1px;
+    
+}
+
+span {
+    text-decoration:line-through;
+    color: rgb(238, 13, 13);
+}

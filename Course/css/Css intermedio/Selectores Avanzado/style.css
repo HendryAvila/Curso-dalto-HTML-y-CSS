@@ -1,0 +1,7 @@
+img[src^="uñas"] {
+    width: 200px;
+}
+
+ul li {
+    color: green;
+}

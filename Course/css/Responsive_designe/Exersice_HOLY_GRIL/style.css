@@ -1,0 +1,128 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    justify-content: center;
+
+/*to keep footer in the botton*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+div, body, nav, ul, footer {
+    box-sizing: border-box;
+}
+
+.main-wrapper, header, footer {
+    width: 100%;
+}
+/*Header*/
+.header{
+    background-color: black;
+}
+
+.main-navbar ul {
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.main-navbar li{
+    margin: 5px;
+    list-style: none;
+}
+
+.main-navbar a {
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#nav-list-btn__github{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-overflow: ellipsis;
+    position: relative;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+#nav-list-btn__github:hover{
+    background-color: gray;
+    bottom: 5px;
+}
+
+.nav-list {
+    margin: 0px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+/*Main section*/
+.main-wrapper{
+    display: flex;
+    flex-grow: 1;
+    max-width: 1024px;
+
+}
+
+aside:last-child{
+    min-width: 10rem;
+}
+
+aside,main{
+    padding: 10px;
+}
+
+.main-wrapper aside {
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-basis: 0;
+    justify-content: center;
+}
+
+.secondary-navbar {
+    min-width: 10rem;
+    text-align: center;
+}
+.secondary-navbar ul{
+    padding: 0px;
+}
+.secondary-navbar a{
+    display: inline-block;
+    color: black;
+    padding: 10px;
+}
+.secondary-navbar li{
+    list-style: none;
+}
+
+
+/*Media queries*/
+
+@media screen and (max-width: 800px) {
+    aside:last-child{
+        display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    .main-wrapper{
+        flex-direction: column;
+    }}
+
+/*Footer*/
+footer{
+    margin-top: auto;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(7, 7, 7);
+    color: white;
+}

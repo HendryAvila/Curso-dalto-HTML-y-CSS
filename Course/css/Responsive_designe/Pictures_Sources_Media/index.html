@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Picture, media source</title>
+</head>
+<body>
+    <picture>
+        <!--If the web can load this img, this will be the priotity-->
+        <!--If not will be loading by resolution-->
+        <source type="image/webp" srcset="foto.webp">
+        <source media="(max-witdt: 400px)"
+        srcset="foto-small.jpg">
+        <source media="(max-width: 600px)"
+        srcset="foto-media.jpg">
+        <source media="(max-width: 900px)"
+        srcset="foto-big.jpg">
+        <!--If dont load any of above this will be the default-->
+        <img src="foto.jpg" alt="photo discipline">
+    </picture>
+    
+</body>
+</html>

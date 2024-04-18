@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(39, 179, 155);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px;
+
+}
+
+.container-flex{
+    border: 3px solid black;
+    background-color: grey;
+    box-shadow: 0px 0px 70px black;
+
+    top: 50px;
+    left: 10px;
+    outline: 2px solid black;
+    outline-offset: 5px;  
+    display: flex;  
+    flex-flow: row wrap;
+    margin: 30px;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.flex__item{
+    border: 1px solid black;
+
+    height: 100px;
+    background-color: white;
+    box-shadow: 0px 0px 70px black;
+    flex: 1 1 100px
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: rgb(187, 29, 29);
+    border: 2px solid black;
+    background-color: wheat;
+    border-radius: 10px;
+    margin: 50px 100px 10px 100px;
+
+}
+
+.flex__item:first-child{
+    flex-grow: 1;
+}
+.flex__item:last-child{
+    flex-grow: 3;
+}

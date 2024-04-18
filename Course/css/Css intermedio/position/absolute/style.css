@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(184, 240, 221);
+    font-family: sans-serif;
+    
+}
+.Container-main{
+    border: 2px solid black;
+    margin: 20px;
+    background-color: rgb(138, 135, 132);
+    position: relative;
+    width: 700px;
+    height: 700px;
+}
+
+.container {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+.container--red {
+    background-color: red;
+
+}
+
+.container--blue{
+    background-color: blue;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+
+}

@@ -1,0 +1,37 @@
+div {
+    background: rgb(15, 15, 15);
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+
+    border-bottom: 5px solid blueviolet;
+    border-radius: 30px;
+    color: aliceblue;
+
+}
+
+body {
+    background: black;
+}
+
+form {
+    background: rgb(10, 10, 10);
+    width: 400px;
+    margin: 50px;
+    text-align: center;
+    padding: 20px;
+
+    border-bottom: 3px solid blueviolet;
+    border-radius: 30px;
+
+    
+}
+
+#submit_input {
+    margin: 25px;
+    padding: 10px;
+    border-bottom: 3px solid blueviolet;
+    border-radius: 30px;
+    text-align: center;
+}

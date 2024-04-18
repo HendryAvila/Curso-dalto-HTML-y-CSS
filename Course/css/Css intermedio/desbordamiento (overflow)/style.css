@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    position: relative;
+    left: 0px;
+    border: 5px solid black;
+    margin: auto;
+    margin-top: 50px;
+    overflow: auto;
+}
