@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    background-color: #838685;
+    font-family: sans-serif;
+}
+
+.container-grid{
+    display: Grid;
+    grid-template-columns: repeat(3, 10rem ) ;
+    grid-template-rows: repeat(3, 200px);
+    /*grid-auto-rows: 200px; are created by the fault as a row and this we define the width we want for the implicity created items*/
+    /*grid-auto-column:200px ;*/
+    grid-auto-flow: column;/*We define if we want implicity column or rows*/
+
+}
+
+.grid-item{
+    background-color: rgb(238, 231, 231);
+    margin: 10PX;
+    padding: 10PX;
+    color: black;
+    box-shadow: 0px 0px 10px black;
+    font-size: 2rem;
+    text-align: center;
+
+}

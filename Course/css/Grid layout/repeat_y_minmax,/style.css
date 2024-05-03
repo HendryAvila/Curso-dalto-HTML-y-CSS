@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+.container-grid{
+    display: Grid;
+    grid-template-columns: repeat(2, 1fr minmax(5rem, 20rem)) ;
+    grid-template-rows:repeat(2, 10rem);
+    /*Repeat() to dont write multiple times the same size*/
+    /*minmax like min-width or min-height*/
+}
+
+.grid-item{
+    background-color: brown;
+    margin: 10PX;
+    padding: 10PX;
+}

@@ -1,0 +1,10 @@
+.container {
+    container-type: inline-size;
+    container-name: div-main;
+}
+
+@container div-main (max-width: 500px){
+    p{
+        background-color: red;
+    }
+}

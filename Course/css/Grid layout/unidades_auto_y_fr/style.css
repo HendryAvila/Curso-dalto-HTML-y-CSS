@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+.container-grid{
+    display: Grid;
+    grid-template-columns: 1fr 1fr auto;/*fr like flex-growth*/
+    grid-template-rows:100px 300px ;/*like height*/
+/*fr give the same space to everyone with it*/
+/*auto detect the min-content then give equality the rest to the ones that  have auto*/
+}
+
+.grid-item{
+    background-color: brown;
+    margin: 10PX;
+    padding: 10PX;
+}

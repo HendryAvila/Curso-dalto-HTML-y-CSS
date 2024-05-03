@@ -1,0 +1,24 @@
+body{
+    background-color: lightslategray;
+}
+
+.container{
+    background-color: rgb(161, 185, 103);
+    gap: 5px;
+    /*GRID*/
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    grid-auto-rows: 1fr;
+}
+
+.container__items{
+    background-color: black;
+    color: white;
+}
+
+.container__items:nth-child(5){
+    background-color: antiquewhite;
+    color: black;
+    grid-column: 2/ span 2 ;
+    grid-row: 3/ span 2;
+}

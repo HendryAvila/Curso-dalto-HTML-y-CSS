@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+
+.container-grid{
+    display: Grid;
+    grid-template-columns:  100PX 100px 100px;/*like width*/
+    grid-template-rows:300px 300px  300px;/*like height*/
+
+}
+
+.grid-item{
+    background-color: brown;
+    margin: 10PX;
+    padding: 10PX;
+}
